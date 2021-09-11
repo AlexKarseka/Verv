@@ -1,0 +1,19 @@
+body {
+	font-family: 'SFProText', 'SFProDisplay', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 17.9px;
+	transition: 0.5s;
+}
+.wrapper {
+	width: 415px;
+	margin: 0 auto;
+	max-width: 100%;
+	background: url(/src/img/bg1.png) no-repeat;
+}
+
+@media (max-width: 321px) {
+    body {
+        font-size: 13px;
+    }
+}

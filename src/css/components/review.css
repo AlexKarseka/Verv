@@ -1,0 +1,46 @@
+.review__cards {
+  position: relative;
+  display: flex;
+  margin-bottom: 29px;
+  padding: 5px;
+  overflow-x: hidden;
+  animation-play-state: running; }
+.review__card {
+  flex-shrink: 0;
+  cursor: pointer;
+  padding: 20px 20px 24px 20px;
+  width: 90%;
+  backdrop-filter: blur(9.06094px);
+  border-radius: 10px;
+  margin-right: 5px;
+  transition: 0.5s; }
+  .review__card:first-child {
+    margin-left: 5%; }
+  .review__card:nth-child(4) {
+    margin-right: 10px; }
+  .review__card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; }
+    .review__card-header-title {
+      font-weight: 500; }
+    .review__card-header-user {
+      mix-blend-mode: normal;
+      opacity: 0.5; }
+  .review__card-stars {
+    margin-bottom: 16px; }
+
+@media (max-width: 376px) {
+  .review__cards {
+    margin-bottom: 21px; } }
+@media (max-width: 321px) {
+  .review__card-header {
+    margin-bottom: 7px; }
+  .review__card-stars {
+    margin-bottom: 9px; }
+  .review__cards {
+    margin-bottom: 13px; }
+  .review__card {
+    padding: 15px 15px 12px 15px; } }
+
+/*# sourceMappingURL=review.css.map */

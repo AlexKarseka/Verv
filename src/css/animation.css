@@ -1,0 +1,87 @@
+/* Анимация сносок */
+
+.weight__scale-pount-red, .weight__scale-pount-green {
+    animation-name: fadeIn; 
+    animation-duration: 2s; 
+    animation-timing-function: ease-in-out;     
+    visibility: visible !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;       
+    }
+    60% {
+        transform: scale(1.1);  
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(1);
+        opacity: 1; 
+    }       
+}
+
+/* Пульсация PRO */
+
+.weight__scale-pount-green::before {
+    animation-name: pulse;
+    animation-duration: 2s;   
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8); 
+    }
+    50% {
+        transform: scale(1);
+    }   
+    100% {
+        transform: scale(0.8);  
+    }           
+}
+
+/* Анимация слайдера */
+
+.review__card {
+    animation-name: move;
+    animation-duration: 25s;
+    animation-delay: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-play-state: inherit;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    12.5% {
+        transform: translateX(-101%);
+    }
+    25% {
+        transform: translateX(-101%);
+    }
+    37.5% {
+        transform: translateX(-203%);
+    }
+    50% {
+        transform: translateX(-203%);
+    }
+    62.5% {
+        transform: translateX(-304%);
+    }
+    75% {
+        transform: translateX(-304%);
+    }
+    87.5% {
+        transform: translateX(-406%);
+    }
+    100% {
+        transform: translateX(-406%);
+    }
+ }

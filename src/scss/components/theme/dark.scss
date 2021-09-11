@@ -1,0 +1,18 @@
+$var1: #373640;
+$var2: #7D7D80;
+
+body {
+	background-color: black;
+}
+.review__card {
+	background: linear-gradient(225deg, #262526 0%, #19181A 100%);
+	color: #ffff;
+}
+.options__card {
+	background: $var1;
+	backdrop-filter: blur(9.06094px);
+	color: #ffff;
+}
+.footer__text {
+	color: $var2;
+}

@@ -1,0 +1,17 @@
+$var1: #F3F2F9;
+$var2: #1A1A1A;
+
+body {
+	background-color: #ffff;
+}
+.review__card {
+	background-color: $var1;
+	color: $var2;
+}
+.options__card {
+	background: $var1;
+	color: black;
+}
+.footer__text {
+	color: black;
+}

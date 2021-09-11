@@ -1,0 +1,29 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__text {
+		font-size: 11px;
+		line-height: 15px;
+		mix-blend-mode: normal;
+		opacity: 0.4;
+		margin-bottom: 26px;
+		transition: 0.5s;
+	}
+	&__line {
+		width: 134px;
+		height: 5px;
+		background-color: black;
+		border-radius: 100px;
+		margin-bottom: 8px;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 321px) {
+    .footer {
+        &__text {
+            margin-bottom: 18px;
+        }
+    }
+}

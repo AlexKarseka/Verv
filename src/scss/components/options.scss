@@ -1,0 +1,120 @@
+$var1: #FCBF59;
+$var2: #FCA759;
+
+.options {
+	margin-bottom: 20px;
+	&__wrapper {
+		padding: 0 20px;
+	}
+	&__cards {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		&-button {
+			font-size: 22px;
+			line-height: 28px;
+			color: #ffff;
+			text-align: center;
+			padding: 11px 0px;
+			border: none;
+			width: 100%;
+			background: linear-gradient(225deg, #542285 0%, #222266 100%);
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	}
+	&__card {
+		font-size: 13px;
+		line-height: 16px;
+		border-radius: 5px;
+		margin-right: 10px;
+		width: 33%;
+		cursor: pointer;
+		margin-bottom: 29px;
+		transition: 0.5s;
+		&-content {
+			transition: 0.5s;
+		}
+		&:last-child {
+			margin-right: 0;
+			.options__card-header {
+				background: $var2;
+			}
+			.options__card-cost-month {
+				padding-bottom: 18px;
+			}
+		}
+		&-header {
+			line-height: 15px;
+			text-align: center;
+			background: $var1;
+			padding: 5px 18.5px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+		&:first-child .options__card-content {
+			border-radius: 5px;
+		}
+		&-title {
+			font-size: 24px;
+			line-height: 28px;
+			text-align: center;
+			padding-top: 6px;
+			margin-bottom: 10px;
+		}
+		&-cost {
+			text-align: center;
+			margin-bottom: 6px;
+			&-month {
+				text-align: center;
+				padding-bottom: 34px;
+			}
+		}
+		&-footer {
+			text-align: center;
+			background: $var2;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+	}
+}
+
+@media (max-width: 376px) {
+    .options {
+        &__card {
+            margin-bottom: 20px;
+            &-title {
+                padding-top: 3px;
+                margin-bottom: 7px;
+            }
+            &-cost-month {
+                padding-bottom: 23px;
+            }
+            &:last-child .options__card-cost-month {
+                padding-bottom: 8px;
+            }
+        }
+    }
+}
+
+@media (max-width: 321px) {
+    .options {
+        margin-bottom: 17px;
+        &__card {
+            font-size: 11px;
+            line-height: 13px;
+            margin-right: 8px;
+            margin-bottom: 13px;
+            &-title {
+                font-size: 20px;
+                line-height: 23px;
+            }
+            &:last-child .options__card-cost-month {
+                padding-bottom: 10px;
+            }
+            &-header {
+                padding: 3px 13px;
+            }
+        }
+    }
+}
