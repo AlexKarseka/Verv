@@ -1,11 +1,11 @@
-@import url("/src/css/normalize.css");
-@import url("/src/css/fonts.css");
-@import url("/src/css/animation.css");
-@import url("/src/css/components/header.css");
-@import url("/src/css/components/weightScale.css");
-@import url("/src/css/components/review.css");
-@import url("/src/css/components/options.css");
-@import url("/src/css/components/footer.css");
+@import url("../../src/css/normalize.css");
+@import url("../../src/css/fonts.css");
+@import url("../../src/css/animation.css");
+@import url("../../src/css/components/header.css");
+@import url("../../src/css/components/weightScale.css");
+@import url("../../src/css/components/review.css");
+@import url("../../src/css/components/options.css");
+@import url("../../src/css/components/footer.css");
 
 body {
   font-family: 'SFProText', 'SFProDisplay', sans-serif;
