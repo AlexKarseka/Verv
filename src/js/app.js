@@ -4,10 +4,10 @@ const changerStyles = document.getElementById('changerStyles')
 
 changerStyles.onclick = (() => {
     let theme = document.getElementById('changerTheme')
-    if (theme.getAttribute('href') == '/src/css/components/theme/lite.css') {
-        theme.href = '/src/css/components/theme/dark.css'
+    if (theme.getAttribute('href') == './src/css/components/theme/lite.css') {
+        theme.href = './src/css/components/theme/dark.css'
     } else {
-        theme.href = '/src/css/components/theme/lite.css'
+        theme.href = './src/css/components/theme/lite.css'
     }
 }) 
  
