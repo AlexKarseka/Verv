@@ -19,6 +19,8 @@
 
 @media (max-width: 321px) {
   .footer__text {
-    margin-bottom: 18px; } }
+    margin-bottom: 18px; }
+    .footer__line {
+      display: none; } }
 
 /*# sourceMappingURL=footer.css.map */
