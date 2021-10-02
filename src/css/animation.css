@@ -49,7 +49,7 @@
 
 .review__card {
     animation-name: move;
-    animation-duration: 25s;
+    animation-duration: 35s;
     animation-delay: 5s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
@@ -60,28 +60,41 @@
     0% {
         transform: translateX(0);
     }
-    12.5% {
+    8.3% {
         transform: translateX(-101%);
     }
-    25% {
+    16.6% {
         transform: translateX(-101%);
     }
-    37.5% {
+    24.9% {
         transform: translateX(-203%);
     }
-    50% {
+    33.2% {
         transform: translateX(-203%);
     }
-    62.5% {
+    41.5% {
         transform: translateX(-304%);
     }
-    75% {
+    49.8% {
         transform: translateX(-304%);
     }
-    87.5% {
-        transform: translateX(-406%);
+    58.1% {
+        transform: translateX(-203%);
+    }
+    66.4% {
+        transform: translateX(-203%);
+    }
+    74.7% {
+        transform: translateX(-101%);
+    }
+    83% {
+        transform: translateX(-101%);
+    }
+    91% {
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-406%);
+        transform: translateX(0);
     }
+    
  }
